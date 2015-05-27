@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<div>
+    ​<h3>图书畅销榜</h3>
+    ​<ol>
+    ​    ​<li title="当我足够好，才会遇见你">当我足够好，才会遇见你</li>
+    ​    ​<li title="皮囊">皮囊</li>
+    ​    ​<li title="李光耀论中国与世界">李光耀论中国与世界</li>
+    ​    ​<li title="乖，摸摸头">乖，摸摸头</li>
+    ​    ​<li title="男女内参">男女内参</li>
+    ​</ol>
+</div>
+​<table>
+​    <caption>运费详情</caption>
+    <thead>
+    <tr><th>区域</th><th>寄达地</th><th>首重（元/1000g）</th><th>续重（元/1000g）</th></tr>
+    </thead>
+​    <tbody>
+    <tr><th rowspan="2">一区</th><td>浙江、上海、江苏</td><td>6</td><td>1</td></tr>
+    <tr><td>江西、安徽</td><td>7</td><td>1</td></tr>
+    <tr><th>二区</th><td>吉林、黑龙江、云南</td><td>10</td><td>6</td></tr>
+    <tr><th>三区</th><td>新疆、西藏</td><td>15</td><td>10</td></tr>
+​    </tbody>
+​</table>
+<div>
+<from action="#" method="post">
+	<label for="head">头像</label> <input type="file" id="head">
+	<div>
+		<label>昵称</label> <input type="text">
+	</div>
+	<div>
+		<label for="study">学历</label>
+		<select id="study">
+			<option value="dazhuan" selected>大专</option>
+			<option value="benke">本科</option>
+		</select>
+	</div>
+	<div>
+		性别
+		<input type="radio" name="sex" valus="boy" id="rd0" checked="checked"><label for="rd0">男</label>
+		<input type="radio" name="sex" valus="girl" id="rd1"><label for="rd1">女</label>
+	</div>
+	<div>
+		爱好
+		<input type="checkbox" name="like" valus="movie" id="cb0" checked="checked"><label for="cb0">电影</label>
+		<input type="checkbox" name="like" valus="photograph" id="cb1"><label for="cb1">摄影</label>
+		<input type="checkbox" name="like" valus="music" id="cb2"><label for="cb2">音乐</label>
+		<input type="checkbox" name="like" valus="read" id="cb3" checked="checked"><label for="cb3">阅读</label>
+	</div>
+	<div>
+		签名
+		<textarea name="text" cols="30" rows="5"></textarea>
+	</div>
+	<div>
+		<button type="submit">保存</button>
+	</div>
+</from>
+</div>
+</body>
+</html>
